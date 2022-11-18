@@ -1,0 +1,36 @@
+print("  CIA COOFIE  ")
+print("==============")
+
+nama = input("Nama Pelanggan :")
+alamat = input("Alamat Pelanggan :")
+no_telp = input("No Telp Pelanggan :")
+tanggal = input("Tanggal Pembelian :")
+
+print("===========================")
+print("    ====MENU====   ")
+print("1. Ice Tea                        Rp.6000")
+print("2. Coffe Carramel                 Rp.30000")
+print("3. Milkshake                      Rp.15000")
+print("     ====MENU====  ")
+
+pilih = int (input("masukkan menu :"))
+if pilih == 1:
+    print("Ice Tea seharga Rp 18000")
+    jumlah = int(input("jumlah pesanan :"))
+    print("")
+    total = jumlah*6000
+    print("total harga:  ",total)
+    print("==== Terima Kasih ====")
+elif pilih == 2:
+    print("Coffe Caramel seharga Rp 60000")
+    jumlah = int(input("jumlah pesanan :"))
+    total = jumlah*30000
+    print("total harga:  ",total)
+    print("==== Terima Kasih ====")
+elif pilih == 3:
+    print("Milkshake seharga Rp 15000")
+    jumlah = int(input("jumlah pesanan :"))
+    print("")
+    total = jumlah*15000
+    print("total harga:  ",total)
+    print("==== Terima Kasih ====")
